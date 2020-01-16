@@ -1,0 +1,13 @@
+**/.vs
+**/bin
+**/obj
+**/*.coverage
+**/*.vssscc
+**/*.vspscc
+**/*.csproj.*
+./commun
+**/TestResult
+/sources/Paramax/Paramax
+/sources/TestResults
+/sources/EIC.RESENT.COMPTA.Api/Properties/PublishProfiles
+**/Logs
