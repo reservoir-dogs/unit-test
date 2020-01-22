@@ -29,7 +29,7 @@ namespace Traitement.Solution
                 .OrderBy(d =>
                 {
                     var elements = d.Nom.Split(new string[] { " - " }, StringSplitOptions.None);
-                    var moments = elements[0].Split('-');
+                    var moments = elements[0].Split('-').Select(x => Convert.ToInt32(x)).ToList();
 
                     var r = string.Concat(moments[2], moments[1], moments[0], elements[1]);
 
